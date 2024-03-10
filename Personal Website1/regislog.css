@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+body {
+    padding: 50px;
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+    justify-content: center; 
+    align-items: center;
+}
+
+.container  {
+    width: 500px;
+    height: 33vh;
+    border-radius: 15px;
+    margin-top: 10px;
+    border: 4px rgb(82, 82, 85) solid;
+    padding: 30px;
+}
+
+#container-registration {
+    width: 700px;
+    height: 85vh;
+    border-radius: 15px;
+    margin-top: 5px;
+    border: 4px rgb(82, 82, 85) solid;
+    padding: 30px;
+}
+
+.title {
+    font-family: 'Rubik Mono One', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+form {
+    width: auto;
+}
+
+form .form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input#login:hover, input#register:hover {
+    color: black !important;
+}
+
+.form-group {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group input {
+    width: 210px;
+}
+
+.glyph {
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.description {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+label {
+    color: white;
+}
+
+.to-register {
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-register a {
+    text-decoration: none;
+}
